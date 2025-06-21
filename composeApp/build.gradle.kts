@@ -43,6 +43,10 @@ kotlin {
             implementation(compose.components.uiToolingPreview)
             implementation(libs.androidx.lifecycle.viewmodel)
             implementation(libs.androidx.lifecycle.runtimeCompose)
+
+            implementation(libs.compose.navigation)
+            implementation(libs.kotlin.serialization.json)
+            implementation(libs.eygraber.uri.kmp)
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
